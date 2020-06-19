@@ -1,0 +1,8 @@
+{
+    "symbol_url": "//at.alicdn.com/t/font_1831619_jnbhsv373ii.js",
+    "save_dir": "./src/components/iconfont",
+    "use_typescript": true,
+    "platforms": "*",
+    "use_rpx": true,
+    "default_icon_size": 30
+}

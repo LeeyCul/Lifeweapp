@@ -1,0 +1,76 @@
+.saylove_conainer {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .bgImg {
+        width: 100%;
+    }
+
+    .content {
+        position: absolute;
+        border-radius: 20rpx;
+        width: 70%;
+        height: 34vh;
+        background: #fff;
+        top: 18%;
+        box-shadow: 2px 2px 15rpx rgba(0, 0, 0, 0.2);
+        vertical-align: middle;
+
+        margin: 50px auto;
+        display: table;
+        padding: 0 20rpx;
+
+        .text {
+            display: table-cell;
+            vertical-align: middle;
+            color: #797979;
+        }
+
+        .arrow_left {
+            position: relative;
+            top: 14vh;
+            left: -10rpx;
+            background: #e2dcfb;
+            border-radius: 50%;
+            color: #fff;
+        }
+
+        .arrow_right {
+            position: relative;
+            top: 14vh;
+            right: -10rpx;
+            background: #e2dcfb;
+            border-radius: 50%;
+            color: #fff;
+        }
+    }
+
+    .copy {
+        position: absolute;
+        bottom: 20%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+        width: 60%;
+        background: #7155f6;
+        border: none;
+    }
+
+    .share {
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+
+        width: 60%;
+        background: #ff73f8;
+        border: none;
+        border-radius: 50rpx;
+    }
+}

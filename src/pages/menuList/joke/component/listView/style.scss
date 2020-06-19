@@ -1,0 +1,23 @@
+.listview_box {
+    width: 100%;
+    background: #f1e4cc;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20rpx;
+    padding: 10rpx;
+    box-sizing: border-box;
+    text-align: center;
+
+    .title {
+        display: inline-block;
+        text-align: center;
+        color: #5f666d;
+        font-size: 32rpx;
+        margin-bottom: 6rpx;
+    }
+
+    .content {
+        text-align: left;
+        color: #999;
+        font-size: 28rpx;
+    }
+}
